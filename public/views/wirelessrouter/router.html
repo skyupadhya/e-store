@@ -1,0 +1,18 @@
+<div id="main-content">
+	<h1>{{router.brand}} {{router.name}}</h1>
+
+    <img class="img-rounded" ng-src="images/{{router.image}}" width="20%"/>
+
+	<p> Name : {{router.name}} </p>
+	<p> Brand : {{router.brand}} </p>
+	<p> Dual-band : {{router.dualband}} </p>
+	<p> Range : {{router.range}} </p>
+	<p> Nuber of Wifi netwrks : {{router.numwifi}} </p>
+	<p> Price : {{router.price}}$ </p>
+	<p> Description : {{router.description}} </p>
+	<p> StartDate of availabilty: {{router.startdate}} </p>
+	<p> EndDate of availabilty: {{router.enddate}} </p>
+	<p> URL : <a href={{router.url}}>{{router.brand}} {{router.name}}</a></p>
+    <p> <a href={{carturl}}{{router._id}}> BUY </a></p>
+</div>
+

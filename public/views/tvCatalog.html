@@ -1,0 +1,8 @@
+<div id="main-content">
+    <h1>{{headingTitle}}</h1>
+
+    <div class="thumbnail" ng-repeat="tv in tvs">
+     	<a href="/store/tv/tv{{tv._id}}"> {{tv.brand}} {{tv.name}}</a>
+       	<a href="/store/tv/tv{{tv._id}}"> <img class="img-rounded" ng-src="images/{{tv.image}}" width="65%"/></a>
+    </div>
+</div>

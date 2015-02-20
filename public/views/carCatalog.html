@@ -1,0 +1,8 @@
+<div id="main-content">
+  	<h1>{{headingTitle}}</h1>
+
+    <div class="thumbnail" ng-repeat="car in cars">
+       <a href="/store/car/car{{car._id}}"> {{car.name}} {{car.brand}}</a>
+       <a href="/store/car/car{{car._id}}"> <img class="img-rounded" ng-src="images/{{car.image}}" width="60%"></a>
+    </div>
+<div>

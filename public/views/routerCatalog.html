@@ -1,0 +1,8 @@
+<div id="main-content">
+  	<h1>{{headingTitle}}</h1>
+
+    <div class="thumbnail" ng-repeat="router in routers">
+       <a href="/store/router/router{{router._id}}">{{router.brand}} {{router.name}} </a>
+       <a href="/store/router/router{{router._id}}"> <img class="img-rounded" ng-src="images/{{router.image}}" width="60%"/></a>
+    </div>
+<div>

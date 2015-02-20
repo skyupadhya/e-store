@@ -1,0 +1,20 @@
+<div id="main-content">
+	<h1>{{tv.brand}} {{tv.name}}</h1>
+
+    <img class="img-rounded" ng-src="images/{{tv.image}}" width="20%"/>
+
+	<p> Name : {{tv.name}} </p>
+	<p> Brand : {{tv.brand}} </p>
+	<p> HD support : {{tv.hd}} </p>
+	<p> Diagonal length : {{tv.diagonal}} inches </p>
+	<p> Length : {{tv.length}} inches </p>
+	<p> Width : {{tv.width}} inches </p>
+	<p> Height : {{tv.height}} inches </p>
+	<p> Price : {{tv.price}}$ </p>
+	<p> Description : {{tv.description}} </p>
+	<p> Warranty : {{tv.warranty}} years </p>
+	<p> StartDate of availabilty: {{tv.startdate}} </p>
+	<p> EndDate of availabilty: {{tv.enddate}} </p>
+	<p> URL : <a href={{tv.url}}>{{tv.brand}} {{tv.name}}</a></p>
+	<p> <a href={{carturl}}{{tv._id}}> BUY </a></p>
+</div>

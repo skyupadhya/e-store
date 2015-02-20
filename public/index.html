@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="Ecommerce">
+<head>
+  <base href="/">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ECOMMERCE</title>
+  <link rel="icon" type="image/png" href="/images/favicon.png"/>
+  <link href="stylesheets/style.css" rel="stylesheet">
+</head>
+<header>
+  <h1> Ecommerce.com </h1>
+</header>
+<body>
+
+<nav>
+  <ul>
+    <li class="current"><a href="/"><span></span> Home </a></li>
+    <li> <a href="/store"><span></span>Store </a>
+      <ul>
+        <li ><a href="/store/tv">TV</a></li>
+        <li ><a href="/store/car">CAR</a></li>
+        <li ><a href="/store/router">WIRELESS ROUTER</a></li>
+      </ul>
+    </li>  
+  </ul>
+</nav>
+
+<div ng-view></div>
+
+<script src="angularjs/angular.js"></script>
+<script src="angularjs/angular-strap.js"></script>
+<script src="angularjs/angular-strap.tpl.js"></script>
+<script src="angularjs/angular-messages.js"></script>
+<script src="angularjs/angular-resource.js"></script>
+<script src="angularjs/angular-route.js"></script>
+<script src="angularjs/angular-cookies.js"></script>
+<script src="angularjs/moment.min.js"></script>
+<script src="app.js"></script>
+<script src="controllers/client/tv-controller.js"></script>
+<script src="controllers/client/car-controller.js"></script>
+<script src="controllers/client/router-controller.js"></script>
+</body>
+</html>

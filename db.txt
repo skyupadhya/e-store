@@ -1,0 +1,32 @@
+TV
+--
+
+{_id: 1, name: "Eoi-B", brand: "Vizio", diagonal: 52, hd: "yes", length: 15, width: 20, height: 42, price: 900, description: "Full HD voted the best value of 2014", warranty: 5, image: "vizio-eoi.png", url: "http://www.cnet.com/products/vizio-e550i-b2/" }
+
+{_id: 2, name: "PNF8500", brand: "Samsung", diagonal: 52, hd: "yes", length: 18, width: 15, height: 45, price: 3297, description: "Samsung's best-performing TV ever which pushes the plasma picture quality envelope, especially in bright rooms.", warranty: 4, image: "samsung-pnf8500.png", url: "http://www.cnet.com/products/samsung-pn64f8500/"}
+
+{_id : 3, name: "55EC9300", brand: "LG", diagonal: 55, hd: "yes", length: 10, width: 52.4, height: 33.3, price: 3500, description: "The LG 55EC9300 OLED TV's picture betters that of any LCD or plasma TV, with perfect black levels and exceedingly bright whites. It's equally adept in bright and dark rooms, showed accurate color, and looks better from off-angle than any LED LCD. Its 1080p resolution is plenty for a 55-inch screen. The TV looks striking in person, with organic curves and an insane 0.25-inch depth on most of its body.", warranty: 3, image: "lg-55EC9300.png", url: "http://www.cnet.com/products/lg-55ec9300/" }
+
+{_id : 4, name: "LE650", brand: "Sharp", diagonal: 58, hd: "yes", length: 69, width: 9, height: 42, price: 1365, description: "The Sharp LE650 boasts better overall picture quality than most competing LCD TVs. Black levels and shadows are dark and detailed, color is accurate, and the image maintains fidelity well in a bright room.", warranty: 1, image: "sharp-le650.png", url: "http://www.cnet.com/products/sharp-lc-70le650//" }
+
+
+Car
+---
+{_id: 1,cmake: "Mazda",cmodel: "Mazda6", year: 2014, mileage: 40, condition: "Good", price: 24000, description: "The standard features of the Mazda Mazda6 i Sport include 2.5L I-4 184hp engine, 6-speed manual transmission with overdrive, 4-wheel anti-lock brakes (ABS), side seat mounted airbags, curtain 1st and 2nd row overhead airbags, airbag occupancy sensor, air conditioning, 17inch aluminum wheels, cruise control, ABS and driveline traction control, and an electronic stability.", image: "mazda.png", url: "http://www.mazdausa.com/MusaWeb/displayPage.action?pageParameter=modelsMain&vehicleCode=M6G"}
+
+{_id: 2,cmake: "Honda",cmodel: "Accord", year: 2014, mileage: 38, condition: "Good", price: 26000, description: "The standard features of the Honda Accord EX-L include 2.4L I-4 185hp engine, 2-speed CVT transmission with overdrive, 4-wheel anti-lock brakes (ABS), side seat mounted airbags, curtain 1st and 2nd row overhead airbags, airbag occupancy sensor, automatic air conditioning, 17inch aluminum wheels, cruise control, ABS and driveline traction control, and an electronic stability.", image: "accord.png", url: "http://automobiles.honda.com/accord-sedan/"}
+
+{_id: 3,cmake: "Kia",cmodel: "Cadenza", year: 2013, mileage: 28, condition: "Bad", price: 16000, description: "The standard features of the Kia Cadenza Premium include 3.3L V-6 293hp engine, 6-speed automatic transmission with overdrive, 4-wheel anti-lock brakes (ABS), integrated navigation system, side seat mounted airbags, curtain 1st and 2nd row overhead airbags, rear side-impact airbag, airbag occupancy sensor, automatic air conditioning, 18inch aluminum wheels, cruise control, and an ABS and driveline traction control.", image: "cadenza.png", url: "http://www.kia.com/us/en/vehicle/cadenza/2014/experience?story=hello"}
+
+{_id: 4,cmake: "Buick",cmodel: "Regal", year: 2015, mileage: 32, condition: "good", price: 32000, description: "The standard features of the Buick Regal Turbo/e-Assist Premium I include 2.0L I-4 259hp engine intercooled turbo, 6-speed automatic transmission with overdrive, 4-wheel anti-lock brakes (ABS), side seat mounted airbags, curtain 1st and 2nd row overhead airbags, airbag occupancy sensor, automatic air conditioning, 18inch aluminum wheels, cruise control, ABS and driveline traction control, and a StabiliTrak electronic stability.", image: "regal.png", url: "http://www.buick.com/regal-luxury-sport-sedan.html"}
+
+
+router
+------
+{_id: 1, name: "WRT1900AC", brand: "Linksys", dualband: "Yes", range: 300, numwifi: 4, price: 300, description: "The WRT1900AC offers fetures such as the ability to flash the firmware with soon-to-be-availale OpenWRT (giving networking geeks the potential for complete network control), excellent performance as a NAS (with a USB drive attached to its USB 3.0 port), wonderful QoS, great range in the 2.4GHz band, and easy, well-honed remote access and management.", image: "linksys-wrt1900.png", url: "http://www.pcmag.com/article2/0,2817,2457009,00.asp",}
+
+{_id: 2, name: "TEW-812DRU", brand: "Trendnet", dualband: "Yes", range: 200, numwifi:4, price: 140, description: "The AC1750 Dual Band Wireless Router (TEW-812DRU) provides excellent throughput. This router delivers to the market the increased speed and range that 802.11ac is all about. Excellent throughput, excellent range, and improvements in features and design", image: "trendnet-tew812dru.png", url: "http://www.pcmag.com/article2/0,2817,2417692,00.asp",}
+
+{_id: 3, name: "RT-AC66U", brand: "Asus", dualband: "Yes", range: 250, numwifi: 6, price: 190, description: "The WRT1900AC offers fetures such as the ability to flash the firmware with soon-to-be-availale OpenWRT (giving networking geeks the potential for complete network control), excellent performance as a NAS (with a USB drive attached to its USB 3.0 port), wonderful QoS, great range in the 2.4GHz band, and easy, well-honed remote access and management.", image: "asus-rtac66u.png", url: "http://www.pcmag.com/article2/0,2817,2412711,00.asp",}
+
+{_id: 4, name: "Nighthawk-AC1900", brand: "Netgear", dualband: "No", range: 150, numwifi: 5, price: 200, description: "The Nighthawk, is Netgear's latest router in the company's premium dual-band 802.11ac router line-up. The router looks as cool as its name suggests, with a trapezoid design and flared sides.Excellent speeds on the 5GHz band when paired with Netgear's latest mini 11ac A6100 USB adapter and enhanced Quality-of-Service (QoS) that really shortens the time to buffer and stream video make the Nighthawk one of the top 802.11ac routers currently on the market for heavy-duty throughput tasks.", image: "netgear-nighthawk.png", url: "http://www.pcmag.com/article2/0,2817,2426296,00.asp",}
